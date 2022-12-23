@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager: MonoBehaviour
 {
@@ -24,6 +25,11 @@ public class GameManager: MonoBehaviour
     public static GameManager GetInstance()
     {
         return instance;
+    }
+
+    public void OnPlayButtonClick()
+    {
+        SceneManager.LoadScene("GameScene");
     }
 
     public void StartGame()
