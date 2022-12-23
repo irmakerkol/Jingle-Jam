@@ -32,6 +32,26 @@ public class GameManager: MonoBehaviour
         SceneManager.LoadScene("GameScene");
     }
 
+    public void StartGame()
+    {
+        // code to start the game
+    }
+
+    public void EndGame()
+    {
+        // code to end the game
+    }
+
+    public void PauseGame()
+    {
+        // code to pause the game
+    }
+
+    public void ResumeGame()
+    {
+        // code to resume the game
+    }
+
     public void UpdateScore()
     {
         // code to update the score
