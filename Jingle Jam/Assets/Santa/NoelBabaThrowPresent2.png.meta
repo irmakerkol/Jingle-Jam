@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 6f0c430f6b204ad4e9381e06b40f208e
+guid: f4815224dd11967409ce2d3cb4e55752
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 1
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -105,22 +105,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-<<<<<<< Updated upstream:Jingle Jam/Assets/Santa/NoelBabaHediyeAt.png.meta
-      name: NoelBabaHediyeAt_0
-=======
-      name: greenChimney_0
->>>>>>> Stashed changes:Jingle Jam/Assets/HouseSystem/Sprites/greenChimney.png.meta
+      name: NoelBabaThrowPresent2_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-<<<<<<< Updated upstream:Jingle Jam/Assets/Santa/NoelBabaHediyeAt.png.meta
-        width: 128
-        height: 94
-=======
-        width: 20
-        height: 19
->>>>>>> Stashed changes:Jingle Jam/Assets/HouseSystem/Sprites/greenChimney.png.meta
+        width: 127.75
+        height: 99
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,35 +119,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Jingle Jam/Assets/Santa/NoelBabaHediyeAt.png.meta
-      spriteID: 5a54677b089f7e8488e04eea6a2ef0ef
-      internalID: -871172473
-=======
-      spriteID: ed764c854a642d641b311b99a5d5799b
-      internalID: -1439949931
->>>>>>> Stashed changes:Jingle Jam/Assets/HouseSystem/Sprites/greenChimney.png.meta
+      spriteID: 38d765353b0518d4487ce0af19fcf2c1
+      internalID: -991561327
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-<<<<<<< Updated upstream:Jingle Jam/Assets/Santa/NoelBabaHediyeAt.png.meta
-      name: NoelBabaHediyeAt_1
+      name: NoelBabaThrowPresent2_1
       rect:
         serializedVersion: 2
-        x: 128
+        x: 127
         y: 0
-        width: 128
-        height: 94
-=======
-      name: greenChimney_1
-      rect:
-        serializedVersion: 2
-        x: 20
-        y: 0
-        width: 20
-        height: 19
->>>>>>> Stashed changes:Jingle Jam/Assets/HouseSystem/Sprites/greenChimney.png.meta
+        width: 127.75
+        height: 99
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -164,35 +140,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Jingle Jam/Assets/Santa/NoelBabaHediyeAt.png.meta
-      spriteID: 4ceadd5eae5e44b4587377852a6f496a
-      internalID: -1333125371
-=======
-      spriteID: 9c5829021b519ec4f8f575e901c295ba
-      internalID: 139075055
->>>>>>> Stashed changes:Jingle Jam/Assets/HouseSystem/Sprites/greenChimney.png.meta
+      spriteID: 41313cfd76a08e14e8e2f62e2f85571f
+      internalID: 1977836551
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-<<<<<<< Updated upstream:Jingle Jam/Assets/Santa/NoelBabaHediyeAt.png.meta
-      name: NoelBabaHediyeAt_2
+      name: NoelBabaThrowPresent2_2
       rect:
         serializedVersion: 2
-        x: 256
+        x: 254
         y: 0
-        width: 128
-        height: 94
-=======
-      name: greenChimney_2
-      rect:
-        serializedVersion: 2
-        x: 40
-        y: 0
-        width: 20
-        height: 19
->>>>>>> Stashed changes:Jingle Jam/Assets/HouseSystem/Sprites/greenChimney.png.meta
+        width: 127.75
+        height: 99
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,35 +161,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Jingle Jam/Assets/Santa/NoelBabaHediyeAt.png.meta
-      spriteID: 32994783a4ab1844c816bb0e008ebae9
-      internalID: 1495996385
-=======
-      spriteID: 5ae725082f9b307478a4dba167c8c393
-      internalID: 2058458950
->>>>>>> Stashed changes:Jingle Jam/Assets/HouseSystem/Sprites/greenChimney.png.meta
+      spriteID: 5be446ca87dbb8d428737d23e9c709aa
+      internalID: -485357867
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-<<<<<<< Updated upstream:Jingle Jam/Assets/Santa/NoelBabaHediyeAt.png.meta
-      name: NoelBabaHediyeAt_3
+      name: NoelBabaThrowPresent2_3
       rect:
         serializedVersion: 2
-        x: 384
+        x: 381
         y: 0
-        width: 128
-        height: 94
-=======
-      name: greenChimney_3
-      rect:
-        serializedVersion: 2
-        x: 60
-        y: 0
-        width: 20
-        height: 19
->>>>>>> Stashed changes:Jingle Jam/Assets/HouseSystem/Sprites/greenChimney.png.meta
+        width: 127.75
+        height: 99
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -236,13 +182,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream:Jingle Jam/Assets/Santa/NoelBabaHediyeAt.png.meta
-      spriteID: c74e5f506b583aa4ea79f41df97b67f8
-      internalID: -852377101
-=======
-      spriteID: 8f19a81681d2c9a4e8c09dad8b8d0ca5
-      internalID: -82796786
->>>>>>> Stashed changes:Jingle Jam/Assets/HouseSystem/Sprites/greenChimney.png.meta
+      spriteID: 07e56f6e254eb054a9bf5fa94afa8648
+      internalID: -2029155644
       vertices: []
       indices: 
       edges: []
@@ -258,17 +199,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-<<<<<<< Updated upstream:Jingle Jam/Assets/Santa/NoelBabaHediyeAt.png.meta
-      NoelBabaHediyeAt_1: -1333125371
-      NoelBabaHediyeAt_2: 1495996385
-      NoelBabaHediyeAt_3: -852377101
-      NoelBabaHediyeAt_0: -871172473
-=======
-      greenChimney_1: 139075055
-      greenChimney_0: -1439949931
-      greenChimney_3: -82796786
-      greenChimney_2: 2058458950
->>>>>>> Stashed changes:Jingle Jam/Assets/HouseSystem/Sprites/greenChimney.png.meta
+      NoelBabaThrowPresent2_1: 1977836551
+      NoelBabaThrowPresent2_2: -485357867
+      NoelBabaThrowPresent2_0: -991561327
+      NoelBabaThrowPresent2_3: -2029155644
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -7,8 +7,13 @@ public class SantaMovmentControll : MonoBehaviour
     public int constantmovSpeed = 5;
     [SerializeField] private int speed = 8;
     private float horizontal;
+<<<<<<< Updated upstream
     private bool isFacingRight = true;
 
+=======
+    public Animator animator;
+    public bool isPressed;
+>>>>>>> Stashed changes
     [SerializeField] private Rigidbody2D rb;
     
     // Start is called before the first frame update
@@ -21,7 +26,15 @@ public class SantaMovmentControll : MonoBehaviour
     void Update()
     {
         horizontal = Input.GetAxisRaw("Vertical");
+<<<<<<< Updated upstream
         Face();
+=======
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            StartCoroutine(WaitAnimation());
+        }
+        
+>>>>>>> Stashed changes
     }
 
     private void FixedUpdate()
@@ -29,6 +42,7 @@ public class SantaMovmentControll : MonoBehaviour
         rb.velocity = new Vector2(constantmovSpeed, horizontal * speed);
     }
 
+<<<<<<< Updated upstream
     private void Face()
     {
         if(isFacingRight && horizontal < 0f || !isFacingRight && horizontal > 0f)
@@ -39,4 +53,17 @@ public class SantaMovmentControll : MonoBehaviour
             transform.localScale = localScale;
         }
     }
+=======
+    IEnumerator WaitAnimation()
+    {
+        animator.SetBool("isPressed", true);
+
+        yield return new WaitForSeconds(0.4f);
+
+        //After we have waited 5 seconds print the time again.
+        animator.SetBool("isPressed", false);
+
+    }
+
+>>>>>>> Stashed changes
 }

@@ -105,13 +105,22 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
+<<<<<<< Updated upstream:Jingle Jam/Assets/Hosues_Deneme/Ev(YeşilBaca)(1).png.meta
       name: "Ev(Ye\u015FilBaca)(1)_0"
+=======
+      name: redChimney_0
+>>>>>>> Stashed changes:Jingle Jam/Assets/HouseSystem/Sprites/redChimney.png.meta
       rect:
         serializedVersion: 2
         x: 0
         y: 0
+<<<<<<< Updated upstream:Jingle Jam/Assets/Hosues_Deneme/Ev(YeşilBaca)(1).png.meta
         width: 64
         height: 62
+=======
+        width: 20
+        height: 28
+>>>>>>> Stashed changes:Jingle Jam/Assets/HouseSystem/Sprites/redChimney.png.meta
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -119,13 +128,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< Updated upstream:Jingle Jam/Assets/Hosues_Deneme/Ev(YeşilBaca)(1).png.meta
       spriteID: e20ba9d1956d8d94892d68d1659bd157
       internalID: -440235831
+=======
+      spriteID: 64b53ac8b574940438c170631901bb3b
+      internalID: -1113217221
+>>>>>>> Stashed changes:Jingle Jam/Assets/HouseSystem/Sprites/redChimney.png.meta
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
+<<<<<<< Updated upstream:Jingle Jam/Assets/Hosues_Deneme/Ev(YeşilBaca)(1).png.meta
       name: "Ev(Ye\u015FilBaca)(1)_1"
       rect:
         serializedVersion: 2
@@ -133,6 +148,15 @@ TextureImporter:
         y: 0
         width: 64
         height: 62
+=======
+      name: redChimney_1
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 0
+        width: 20
+        height: 28
+>>>>>>> Stashed changes:Jingle Jam/Assets/HouseSystem/Sprites/redChimney.png.meta
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,13 +164,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< Updated upstream:Jingle Jam/Assets/Hosues_Deneme/Ev(YeşilBaca)(1).png.meta
       spriteID: 7b58142c93b4b2f41a85548fd04d5e21
       internalID: 579488354
+=======
+      spriteID: ac74fe62192188b46b0d185cc955c6fb
+      internalID: 1438833809
+>>>>>>> Stashed changes:Jingle Jam/Assets/HouseSystem/Sprites/redChimney.png.meta
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
+<<<<<<< Updated upstream:Jingle Jam/Assets/Hosues_Deneme/Ev(YeşilBaca)(1).png.meta
       name: "Ev(Ye\u015FilBaca)(1)_2"
       rect:
         serializedVersion: 2
@@ -154,6 +184,15 @@ TextureImporter:
         y: 0
         width: 64
         height: 62
+=======
+      name: redChimney_2
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 0
+        width: 20
+        height: 28
+>>>>>>> Stashed changes:Jingle Jam/Assets/HouseSystem/Sprites/redChimney.png.meta
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -161,13 +200,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< Updated upstream:Jingle Jam/Assets/Hosues_Deneme/Ev(YeşilBaca)(1).png.meta
       spriteID: 35a93692507d6f544bb2033d44873f63
       internalID: 1095038178
+=======
+      spriteID: f179189f7f9028443a2fd640ee4875ea
+      internalID: -957317467
+>>>>>>> Stashed changes:Jingle Jam/Assets/HouseSystem/Sprites/redChimney.png.meta
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
+<<<<<<< Updated upstream:Jingle Jam/Assets/Hosues_Deneme/Ev(YeşilBaca)(1).png.meta
       name: "Ev(Ye\u015FilBaca)(1)_3"
       rect:
         serializedVersion: 2
@@ -175,6 +220,15 @@ TextureImporter:
         y: 0
         width: 64
         height: 62
+=======
+      name: redChimney_3
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 0
+        width: 20
+        height: 28
+>>>>>>> Stashed changes:Jingle Jam/Assets/HouseSystem/Sprites/redChimney.png.meta
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -182,8 +236,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< Updated upstream:Jingle Jam/Assets/Hosues_Deneme/Ev(YeşilBaca)(1).png.meta
       spriteID: 14f4a831d24031a41a2e0e5a2fef7fdd
       internalID: -1188276801
+=======
+      spriteID: 40b6d907dc5d99a4fa7de28d4488be7f
+      internalID: 1534545734
+>>>>>>> Stashed changes:Jingle Jam/Assets/HouseSystem/Sprites/redChimney.png.meta
       vertices: []
       indices: 
       edges: []
@@ -199,10 +258,17 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+<<<<<<< Updated upstream:Jingle Jam/Assets/Hosues_Deneme/Ev(YeşilBaca)(1).png.meta
       "Ev(Ye\u015FilBaca)(1)_3": -1188276801
       "Ev(Ye\u015FilBaca)(1)_2": 1095038178
       "Ev(Ye\u015FilBaca)(1)_1": 579488354
       "Ev(Ye\u015FilBaca)(1)_0": -440235831
+=======
+      redChimney_1: 1438833809
+      redChimney_0: -1113217221
+      redChimney_2: -957317467
+      redChimney_3: 1534545734
+>>>>>>> Stashed changes:Jingle Jam/Assets/HouseSystem/Sprites/redChimney.png.meta
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
