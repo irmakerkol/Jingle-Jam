@@ -1,10 +1,12 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Sound : MonoBehaviour
 {
     private static Sound instance;
     public AudioClip[] soundClips;
     [SerializeField] AudioSource audioSource;
+    [SerializeField] Image soundOnImage, soundOffImage;
 
     private void Awake()
     {
@@ -19,8 +21,16 @@ public class Sound : MonoBehaviour
         }
     }
 
+    public bool soundsEnabled = true;
+
     public void PlaySound(int soundIndex)
     {
+        // Check if sounds are enabled
+        if (!soundsEnabled)
+        {
+            return;
+        }
+
         // Check if the sound index is valid
         if (soundIndex < 0 || soundIndex >= soundClips.Length)
         {
@@ -34,6 +44,24 @@ public class Sound : MonoBehaviour
         // Play the sound
         audioSource.Play();
     }
+
+    public void ToggleSound()
+    {
+        if (soundsEnabled)
+        {
+            soundOnImage.gameObject.SetActive(false);
+            soundOffImage.gameObject.SetActive(true);
+            soundsEnabled = false;
+        }
+        else
+        {
+            soundOffImage.gameObject.SetActive(false);
+            soundOnImage.gameObject.SetActive(true);
+            soundsEnabled = true;
+        }
+    }
+
+
 
     public static Sound GetInstance()
     {
