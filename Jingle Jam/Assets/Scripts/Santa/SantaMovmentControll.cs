@@ -20,7 +20,7 @@ public class SantaMovmentControll : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        horizontal = Input.GetAxisRaw("Horizontal");
+        horizontal = Input.GetAxisRaw("Vertical");
         Face();
     }
 
