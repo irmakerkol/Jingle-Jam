@@ -23,7 +23,7 @@ public class Santa : MonoBehaviour
     private void DropPresent()
     {
         // Create a new present object
-        GameObject presentObject = Instantiate(presentPrefab, transform.position, Quaternion.identity);
+        Instantiate(presentPrefab, transform.position, Quaternion.identity);
 
     }
 
