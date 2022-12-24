@@ -18,7 +18,6 @@ public class Present : MonoBehaviour
         House house = collider.gameObject.GetComponentInParent<House>();
         if (house != null)
         {
-            Debug.Log("girdi. House: " + house);
             // Check if the house is good or bad
             if (house.type == House.HouseType.Good)
             {
