@@ -4,9 +4,10 @@ using UnityEngine;
 public class Rock : MonoBehaviour
 {
     public Vector2 velocity; // The velocity of the rock
+    private int timesGetHitByRock;
 
     [SerializeField] Rigidbody2D rb; // The Rigidbody2D component for the rock
-
+    
     private void Update()
     {
         // Move the rock based on its velocity
@@ -26,7 +27,8 @@ public class Rock : MonoBehaviour
 
             // Add a point to the Grinch
             ScoreManager.GetInstance().GivePointToGrinch();
-
+            timesGetHitByRock++;
+            PlayerPrefs.SetInt("HitByRock", timesGetHitByRock);
             Destroy(gameObject);
 
         }
