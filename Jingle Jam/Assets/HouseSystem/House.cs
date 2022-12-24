@@ -10,9 +10,9 @@ public class House : MonoBehaviour
 
     public HouseType type;
     [SerializeField] Sprite[] houseSprites;
-    [SerializeField] Sprite[] chimneySprites;
     private SpriteRenderer houseSpriteRenderer;
-    [SerializeField] SpriteRenderer chimneySpriteRenderer;
+    [SerializeField] GameObject goodChimney, badChimney;
+
 
     private void Awake()
     {
@@ -21,12 +21,19 @@ public class House : MonoBehaviour
         //Decide good or bad
         int randChimney = Random.Range(1, 11);
 
-        if (randChimney <= 6)
+        if (randChimney <= 5)
+        {
             type = HouseType.Good;
-        else
+            goodChimney.SetActive(true);
+            badChimney.SetActive(false);
+        }
+        else 
+        {
             type = HouseType.Bad;
+            goodChimney.SetActive(false);
+            badChimney.SetActive(true);
+        }
 
-        chimneySpriteRenderer.sprite = type == HouseType.Good ? chimneySprites[0] : chimneySprites[1];
 
         //Decide house image
         houseSpriteRenderer.sprite = houseSprites[Random.Range(0, houseSprites.Length)];
