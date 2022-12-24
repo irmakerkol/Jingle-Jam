@@ -31,6 +31,9 @@ public class Rock : MonoBehaviour
             ScoreManager.GetInstance().GivePointToGrinch();
 
             Grinch.Fire_onHit();
+
+            Destroy(gameObject);
+
         }
     }
 

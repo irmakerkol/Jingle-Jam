@@ -1,15 +1,12 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
 public class ScoreManager : MonoBehaviour
 {
-    private int score;
-    private int grinchScore;
+    public static int score;
+    private static int grinchScore;
 
-    [SerializeField]
-    TextMeshProUGUI scoreText;
+    public TextMeshProUGUI scoreText;
 
     private static ScoreManager instance;
 

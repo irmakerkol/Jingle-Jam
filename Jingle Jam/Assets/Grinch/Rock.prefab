@@ -134,7 +134,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.28, y: 1.28}
+  m_Size: {x: 2, y: 2}
   m_EdgeRadius: 0
 --- !u!114 &-1363205347264995272
 MonoBehaviour:
@@ -150,8 +150,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   velocity: {x: 5, y: 0}
   rb: {fileID: 6249604789133308778}
-  audioSource: {fileID: -389412185396668390}
-  evilLaugh: {fileID: 8300000, guid: 2bb4d65e12b5942ca8aa4487bf0d78fc, type: 3}
 --- !u!95 &8546312202516477176
 Animator:
   serializedVersion: 5
