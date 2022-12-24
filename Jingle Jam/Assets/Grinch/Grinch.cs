@@ -5,7 +5,7 @@ public class Grinch : MonoBehaviour
     public float speed = 10.0f; // The speed at which the Grinch moves
     public GameObject rockPrefab; // The prefab for the rock that the Grinch throws
     public float throwInterval = 1.0f; // The interval at which the Grinch throws rocks
-    public AudioClip throwSound; // The sound that plays when the Grinch throws a rock
+    public AudioClip evilLaugh; // The sound that plays when the Grinch throws a rock
     public float rockSpeed = 15.0f; // The speed at which the rock travels
 
     private float lastThrowTime; // The time at which the Grinch last threw a rock
@@ -36,7 +36,7 @@ public class Grinch : MonoBehaviour
         rock.velocity = direction * rockSpeed;
 
         // Play the throw sound
-        audioSource.PlayOneShot(throwSound);
+        audioSource.PlayOneShot(evilLaugh);
 
         // Update the time at which the Grinch last threw a rock
         lastThrowTime = Time.time;

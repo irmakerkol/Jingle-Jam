@@ -780,16 +780,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 10
   tilt: 4
-  xMin: 0
-  xMax: 100
   yMin: 0.5
   yMax: 5
-  deathSound: {fileID: 0}
   presentPrefab: {fileID: 0}
-  presentInterval: 1
-  presentSound: {fileID: 0}
-  audioSource: {fileID: 0}
   rigidbody: {fileID: 2093553486}
+  animator: {fileID: 2093553490}
 --- !u!1001 &7275262129809188475
 PrefabInstance:
   m_ObjectHideFlags: 0
