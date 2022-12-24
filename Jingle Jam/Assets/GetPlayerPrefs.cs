@@ -10,7 +10,7 @@ public class GetPlayerPrefs : MonoBehaviour
     private void Start()
     {
         getHitByRock = PlayerPrefs.GetInt("HitByRock");
-        Text.text = "Santa got hit by jamacana " + getHitByRock + " times";
+        Text.text = "SANTA GOT HIT BY JAMANCA  " + getHitByRock + " TIMES";
 
 
     }
