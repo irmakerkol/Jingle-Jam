@@ -1,6 +1,6 @@
 using UnityEngine;
 using TMPro;
-
+using UnityEngine.SceneManagement;
 
 public class TimeManager : MonoBehaviour
 {
@@ -33,14 +33,14 @@ public class TimeManager : MonoBehaviour
         if (remainingTime <= 0)
         {
             // Time limit reached, player loses
-            Debug.Log("You lose!");
+            SceneManager.LoadScene("FailedScene");
         }
 
         // Check if the score limit has been reached
         if (ScoreManager.score >= scoreLimit)
         {
             // Score limit reached, player wins
-            Debug.Log("You win!");
+            SceneManager.LoadScene("SuccessScene");
         }
     }
 }

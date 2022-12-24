@@ -1,11 +1,11 @@
 using System.Collections;
 using UnityEngine;
-using System;
+
 
 public class Rock : MonoBehaviour
 {
     public Vector2 velocity; // The velocity of the rock
-    private int timesGetHitByRock;
+    
 
     [SerializeField] Rigidbody2D rb; // The Rigidbody2D component for the rock
 
@@ -32,8 +32,7 @@ public class Rock : MonoBehaviour
            
             Destroy(gameObject);
 
-            timesGetHitByRock++;
-            PlayerPrefs.SetInt("GetHitByRock", timesGetHitByRock);
+            
 
             Grinch.Fire_onHit();
 

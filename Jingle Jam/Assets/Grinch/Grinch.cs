@@ -34,10 +34,8 @@ public class Grinch : MonoBehaviour
         Vector2 movement = new Vector2(0.5f, 0f);
         GetComponent<Rigidbody2D>().velocity = movement * speed;
 
-    
-
         // Check if it's time to throw a rock
-        if (Time.time - lastThrowTime > throwInterval +0.4f && !gameOver)
+        if (Time.time - lastThrowTime > throwInterval +0.4f && Time.time > 5f)
         { 
             if(!animator.GetBool("isAttack"))
                 StartCoroutine(WaitForGrinchAttckAnim());
