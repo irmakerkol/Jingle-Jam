@@ -36,6 +36,9 @@ public class Rock : MonoBehaviour
             PlayerPrefs.SetInt("GetHitByRock", timesGetHitByRock);
 
             Grinch.Fire_onHit();
+
+            Destroy(gameObject);
+
         }
     }
 
