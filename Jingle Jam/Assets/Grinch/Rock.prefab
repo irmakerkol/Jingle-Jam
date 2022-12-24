@@ -148,7 +148,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   velocity: {x: 5, y: 0}
-  rigidbody: {fileID: 6249604789133308778}
+  rb: {fileID: 6249604789133308778}
 --- !u!95 &8546312202516477176
 Animator:
   serializedVersion: 5
