@@ -30,7 +30,7 @@ public class GameManager: MonoBehaviour
 
         if(scoreText != null)
         {
-            scoreText.text = "Score: " + score;
+            scoreText.text = "XMAS Spirit: " + score;
             grinchScoreText.text = "Grinch Score: " + grinchScore;
         }
   
@@ -53,7 +53,7 @@ public class GameManager: MonoBehaviour
         score++;
 
         // Update the score display
-        scoreText.text = "Score: " + score;
+        scoreText.text = "XMAS Spirit: " + score;
     }
 
     public void RemovePointFromSanta()
@@ -62,7 +62,7 @@ public class GameManager: MonoBehaviour
         score--;
 
         // Update the score display
-        scoreText.text = "Score: " + score;
+        scoreText.text = "XMAS Spirit: " + score;
     }
 
     public void GivePointToGrinch()
