@@ -34,7 +34,6 @@ public class GameManager: MonoBehaviour
             grinchScoreText.text = "Grinch Score: " + grinchScore;
         }
   
-
     }
 
     public static GameManager GetInstance()
