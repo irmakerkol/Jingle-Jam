@@ -21,7 +21,6 @@ public class Rock : MonoBehaviour
         Santa santa = collider.gameObject.GetComponent<Santa>();
         if (santa != null)
         {
-            Debug.Log("Girdi");
             // Remove a point from Santa
             GameManager.GetInstance().RemovePointFromSanta();
 

@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 3204286091385868537}
   - component: {fileID: 3204286091385868536}
-  - component: {fileID: 3204286091385868542}
   - component: {fileID: 3204286091385868538}
   - component: {fileID: 3204286091385868539}
+  - component: {fileID: 1571517512}
   m_Layer: 0
   m_Name: Grinch
   m_TagString: Untagged
@@ -87,27 +87,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!50 &3204286091385868542
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3204286091385868419}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!114 &3204286091385868538
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -126,7 +105,7 @@ MonoBehaviour:
   evilLaugh: {fileID: 8300000, guid: 2bb4d65e12b5942ca8aa4487bf0d78fc, type: 3}
   rockSpeed: 15
   audioSource: {fileID: 3204286091385868539}
-  santa: {fileID: 4278842049170813786, guid: f8b70d0ce199049b69540e29844af800, type: 3}
+  santa: {fileID: 0}
 --- !u!82 &3204286091385868539
 AudioSource:
   m_ObjectHideFlags: 0
@@ -223,3 +202,24 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!50 &1571517512
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3204286091385868419}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0

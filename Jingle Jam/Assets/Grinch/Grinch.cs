@@ -22,13 +22,15 @@ public class Grinch : MonoBehaviour
 
     private void Update()
     {
-        float moveVertical = Input.GetAxis("Vertical");
-        Vector2 movement = new Vector2(0.5f, moveVertical);
+        Vector2 movement = new Vector2(0.5f, 0f);
         GetComponent<Rigidbody2D>().velocity = movement * speed;
+
+    
 
         // Check if it's time to throw a rock
         if (Time.time - lastThrowTime > throwInterval && !gameOver)
         {
+
             // Throw a rock
             ThrowRock();
         }

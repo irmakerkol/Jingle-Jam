@@ -148,3 +148,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   velocity: {x: 5, y: 0}
   rigidbody: {fileID: 6249604789133308778}
+  Santa: {fileID: 4278842049170813765, guid: f8b70d0ce199049b69540e29844af800, type: 3}
