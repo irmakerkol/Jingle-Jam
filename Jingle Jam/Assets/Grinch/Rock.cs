@@ -5,9 +5,9 @@ using System;
 public class Rock : MonoBehaviour
 {
     public Vector2 velocity; // The velocity of the rock
+    private int timesGetHitByRock;
 
     [SerializeField] Rigidbody2D rb; // The Rigidbody2D component for the rock
-
 
     private void Update()
     {
@@ -29,6 +29,11 @@ public class Rock : MonoBehaviour
 
             // Add a point to the Grinch
             ScoreManager.GetInstance().GivePointToGrinch();
+           
+            Destroy(gameObject);
+
+            timesGetHitByRock++;
+            PlayerPrefs.SetInt("GetHitByRock", timesGetHitByRock);
 
             Grinch.Fire_onHit();
 
