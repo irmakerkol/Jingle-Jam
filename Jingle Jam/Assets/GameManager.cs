@@ -32,14 +32,24 @@ public class GameManager: MonoBehaviour
         SceneManager.LoadScene("GameScene");
     }
 
-    public void UpdateScore()
+    public void GivePointToSanta()
     {
-        // code to update the score
+
     }
 
-    public void UpdateGrinchScore()
+    public void RemovePointFromSanta()
     {
         // code to update Grinch's score
+    }
+
+    public void GivePointToGrinch()
+    {
+
+    }
+
+    public void RemovePointFromGrinch()
+    {
+
     }
 
     public void UpdateLevel()
