@@ -2,11 +2,12 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 
-
 public class GameManager: MonoBehaviour
 {
 
     private static GameManager instance;
+    public AudioClip santaLaugh;
+    [SerializeField] AudioSource audioSource;
 
     private void Awake()
     {
@@ -30,9 +31,11 @@ public class GameManager: MonoBehaviour
     public void OnPlayButtonClick()
     {
         SceneManager.LoadScene("GameScene");
+        audioSource.PlayOneShot(santaLaugh);
+
     }
 
- 
+
 
 }
 

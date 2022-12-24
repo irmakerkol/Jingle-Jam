@@ -1,5 +1,7 @@
 using UnityEngine;
 using System.Collections;
+using System;
+
 public class Grinch : MonoBehaviour
 {
     public Animator animator;
@@ -14,10 +16,16 @@ public class Grinch : MonoBehaviour
     [SerializeField] Santa santa; // The Santa object in the game
     private bool gameOver; // Whether the game is over
 
+    public static Action onHit;
+    public static void Fire_onHit() { onHit?.Invoke(); }
 
     private void Awake()
     {
-        // Play the throw sound
+        onHit += OnHit;
+    }
+
+    void OnHit()
+    {
         audioSource.PlayOneShot(evilLaugh);
     }
 

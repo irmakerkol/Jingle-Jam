@@ -107,7 +107,7 @@ MonoBehaviour:
   evilLaugh: {fileID: 8300000, guid: 2bb4d65e12b5942ca8aa4487bf0d78fc, type: 3}
   rockSpeed: 15
   audioSource: {fileID: 3204286091385868539}
-  santa: {fileID: 4278842049170813786, guid: f8b70d0ce199049b69540e29844af800, type: 3}
+  santa: {fileID: 0}
 --- !u!82 &3204286091385868539
 AudioSource:
   m_ObjectHideFlags: 0

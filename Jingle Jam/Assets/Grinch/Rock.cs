@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using System;
 
 public class Rock : MonoBehaviour
 {
@@ -7,7 +8,7 @@ public class Rock : MonoBehaviour
     private int timesGetHitByRock;
 
     [SerializeField] Rigidbody2D rb; // The Rigidbody2D component for the rock
-    
+
     private void Update()
     {
         // Move the rock based on its velocity
@@ -22,15 +23,16 @@ public class Rock : MonoBehaviour
         Santa santa = collider.gameObject.GetComponent<Santa>();
         if (santa != null)
         {
+
             // Remove a point from Santa
             ScoreManager.GetInstance().RemovePointFromSanta();
 
             // Add a point to the Grinch
             ScoreManager.GetInstance().GivePointToGrinch();
-            timesGetHitByRock++;
-            PlayerPrefs.SetInt("HitByRock", timesGetHitByRock);
             Destroy(gameObject);
 
+
+            Grinch.Fire_onHit();
         }
     }
 
