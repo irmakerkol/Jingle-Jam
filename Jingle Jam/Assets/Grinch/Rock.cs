@@ -29,8 +29,11 @@ public class Rock : MonoBehaviour
 
             // Add a point to the Grinch
             ScoreManager.GetInstance().GivePointToGrinch();
+           
             Destroy(gameObject);
 
+            timesGetHitByRock++;
+            PlayerPrefs.SetInt("GetHitByRock", timesGetHitByRock);
 
             Grinch.Fire_onHit();
         }
