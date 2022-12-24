@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3204286091385868536}
   - component: {fileID: 3204286091385868538}
   - component: {fileID: 3204286091385868539}
+  - component: {fileID: 3677773518044415254}
   - component: {fileID: 1571517512}
   m_Layer: 0
   m_Name: Grinch
@@ -76,8 +77,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: ef7c48eb5857def4ba0c6a81cc6342bb, type: 3}
-  m_Color: {r: 0, g: 0.5377358, b: 0.07080252, a: 1}
+  m_Sprite: {fileID: 21300000, guid: 5cf5591a2b3c4334eae7d844e5483ae1, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -99,6 +100,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96696699310b2466b9e57cc7291780e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animator: {fileID: 3677773518044415254}
   speed: 10
   rockPrefab: {fileID: 6249604789133308773, guid: 1a9ed1eed30044acb962e23ca4afab8c, type: 3}
   throwInterval: 3
@@ -202,6 +204,26 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!95 &3677773518044415254
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3204286091385868419}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 7977e127b56e70f41b51b6dba3286833, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!50 &1571517512
 Rigidbody2D:
   serializedVersion: 4
