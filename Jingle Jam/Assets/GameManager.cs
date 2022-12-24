@@ -1,11 +1,15 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using TMPro;
+
 
 public class GameManager: MonoBehaviour
 {
     private int score;
     private int grinchScore;
-    private int level;
+
+    [SerializeField]
+    private TextMeshProUGUI scoreText, grinchScoreText;
 
     private static GameManager instance;
 
@@ -20,6 +24,17 @@ public class GameManager: MonoBehaviour
         {
             Destroy(gameObject);
         }
+
+        score = 0;
+        grinchScore = 1000;
+
+        if(scoreText != null)
+        {
+            scoreText.text = "Score: " + score;
+            grinchScoreText.text = "Grinch Score: " + grinchScore;
+        }
+  
+
     }
 
     public static GameManager GetInstance()
@@ -34,27 +49,40 @@ public class GameManager: MonoBehaviour
 
     public void GivePointToSanta()
     {
+        // Increment Santa's score
+        score++;
 
+        // Update the score display
+        scoreText.text = "Score: " + score;
     }
 
     public void RemovePointFromSanta()
     {
-        // code to update Grinch's score
+        // Decrement Santa's score
+        score--;
+
+        // Update the score display
+        scoreText.text = "Score: " + score;
     }
 
     public void GivePointToGrinch()
     {
+        // Increment Grinch's score
+        grinchScore++;
 
+        // Update the score display
+        grinchScoreText.text = "Grinch Score: " + grinchScore;
     }
 
     public void RemovePointFromGrinch()
     {
+        // Decrement Grinch's score
+        grinchScore--;
+
+        // Update the score display
+        grinchScoreText.text = "Grinch Score: " + grinchScore;
 
     }
 
-    public void UpdateLevel()
-    {
-        // code to update the level
-    }
 }
 
