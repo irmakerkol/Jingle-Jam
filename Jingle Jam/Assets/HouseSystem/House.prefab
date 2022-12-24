@@ -326,6 +326,7 @@ MonoBehaviour:
   type: 0
   houseSprites:
   - {fileID: 21300000, guid: 5b8a446e554bc4e778a550adaebf40ec, type: 3}
-  - {fileID: 21300000, guid: 5b8a446e554bc4e778a550adaebf40ec, type: 3}
+  - {fileID: 21300000, guid: a927856594b1cbb44892b8edc8752ac6, type: 3}
+  - {fileID: 21300000, guid: 083bfd322f32fad4fae6fcf832ba09cd, type: 3}
   goodChimney: {fileID: 3919271043689761267}
   badChimney: {fileID: 4216391264304639358}
