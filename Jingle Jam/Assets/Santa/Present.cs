@@ -21,14 +21,14 @@ public class Present : MonoBehaviour
             // Check if the house is good or bad
             if (house.type == House.HouseType.Good)
             {
-                GameManager.GetInstance().GivePointToSanta();
-                GameManager.GetInstance().RemovePointFromGrinch();
+                ScoreManager.GetInstance().GivePointToSanta();
+                ScoreManager.GetInstance().RemovePointFromGrinch();
 
             }
             else
             {
-                GameManager.GetInstance().RemovePointFromSanta();
-                GameManager.GetInstance().GivePointToGrinch();
+                ScoreManager.GetInstance().RemovePointFromSanta();
+                ScoreManager.GetInstance().GivePointToGrinch();
 
             }
 

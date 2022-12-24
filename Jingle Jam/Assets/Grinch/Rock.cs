@@ -5,12 +5,12 @@ public class Rock : MonoBehaviour
 {
     public Vector2 velocity; // The velocity of the rock
 
-    [SerializeField] Rigidbody2D rigidbody; // The Rigidbody2D component for the rock
+    [SerializeField] Rigidbody2D rb; // The Rigidbody2D component for the rock
 
     private void Update()
     {
         // Move the rock based on its velocity
-        rigidbody.velocity = velocity;
+        rb.velocity = velocity;
 
         StartCoroutine(WaitForDestroy());
     }
@@ -22,10 +22,10 @@ public class Rock : MonoBehaviour
         if (santa != null)
         {
             // Remove a point from Santa
-            GameManager.GetInstance().RemovePointFromSanta();
+            ScoreManager.GetInstance().RemovePointFromSanta();
 
             // Add a point to the Grinch
-            GameManager.GetInstance().GivePointToGrinch();
+            ScoreManager.GetInstance().GivePointToGrinch();
 
             Destroy(gameObject);
 
