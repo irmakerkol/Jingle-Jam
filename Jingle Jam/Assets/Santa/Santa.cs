@@ -15,7 +15,7 @@ public class Santa : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-           // DropPresent();
+            DropPresent();
             StartCoroutine(WaitForSantaAnim());
         }
     }
@@ -24,10 +24,6 @@ public class Santa : MonoBehaviour
     {
         // Create a new present object
         GameObject presentObject = Instantiate(presentPrefab, transform.position, Quaternion.identity);
-        Present present = presentObject.GetComponent<Present>();
-
-        // Set the velocity of the present to zero
-        present.velocity = Vector2.zero;
 
     }
 

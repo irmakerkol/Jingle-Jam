@@ -9,7 +9,7 @@ public class Present : MonoBehaviour
     private void Update()
     {
         // Move the present based on its velocity
-        rigidbody.velocity = velocity;
+        rigidbody.velocity = -velocity;
     }
 
     private void OnTriggerEnter2D(Collider2D collider)
