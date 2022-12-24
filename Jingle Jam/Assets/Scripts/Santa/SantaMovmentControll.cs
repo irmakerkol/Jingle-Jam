@@ -7,7 +7,7 @@ public class SantaMovmentControll : MonoBehaviour
     public int constantmovSpeed = 5;
     [SerializeField] private int speed = 8;
     private float horizontal;
-
+    public Animator animator;
     [SerializeField] private Rigidbody2D rb;
     
     // Start is called before the first frame update
@@ -20,11 +20,24 @@ public class SantaMovmentControll : MonoBehaviour
     void Update()
     {
         horizontal = Input.GetAxisRaw("Vertical");
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            StartCoroutine(WaitForSantaAnim());
+        }
+        
     }
 
     private void FixedUpdate()
     {
         rb.velocity = new Vector2(constantmovSpeed, horizontal * speed);
     }
+    IEnumerator WaitForSantaAnim()
+    {
+        animator.SetBool("isPressed", true);
 
+        yield return new WaitForSeconds(0.4f);
+
+        animator.SetBool("isPressed", false);
+
+    }
 }
