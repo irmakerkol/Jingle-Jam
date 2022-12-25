@@ -249,7 +249,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: CONGRATS YOU HAVE SAVED THE CHRISTMAS SPIRIT
+  m_text: As you and the Christmas spirits celebrate your victory over the Grinch,
+    you are hailed as a hero and the savior of Christmas. The townsfolk and the families
+    that were previously sad and without hope are now filled with joy and cheer once
+    again.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8c757f6c8f75458418db557337e7b3a4, type: 2}
   m_sharedMaterial: {fileID: -886614525999566039, guid: 8c757f6c8f75458418db557337e7b3a4, type: 2}
@@ -312,7 +315,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -357.63882, y: -91.30249, z: -357.63885, w: -170.83627}
+  m_margin: {x: -357.63882, y: -91.30249, z: -357.63885, w: -339.76532}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -580,7 +583,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eeb0e39a26ad0a149b50bc036683ce45, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Text: {fileID: 0}
 --- !u!4 &2029073126
 Transform:
   m_ObjectHideFlags: 0
