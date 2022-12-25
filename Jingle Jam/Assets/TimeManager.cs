@@ -26,7 +26,7 @@ public class TimeManager : MonoBehaviour
         float remainingTime = timeLimit - elapsedTime;
 
         // Update the time display
-        timeText.text = "Time: " + Mathf.FloorToInt(remainingTime);
+        timeText.text = "TIME: " + Mathf.FloorToInt(remainingTime);
 
 
         // Check if the time limit has been reached

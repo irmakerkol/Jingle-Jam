@@ -224,10 +224,10 @@ RectTransform:
   m_Father: {fileID: 1407037197}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.34}
-  m_AnchorMax: {x: 1, y: 0.9620001}
-  m_AnchoredPosition: {x: 1.5, y: 40}
-  m_SizeDelta: {x: -713, y: -264}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -3.2299}
+  m_SizeDelta: {x: 960, y: 563.2584}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1052701449
 MonoBehaviour:
@@ -249,10 +249,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: As you and the Christmas spirits celebrate your victory over the Grinch,
-    you are hailed as a hero and the savior of Christmas. The townsfolk and the families
-    that were previously sad and without hope are now filled with joy and cheer once
-    again.
+  m_text: AS YOU AND THE CHRISTMAS SPIRITS CELEBRATE YOUR VICTORY OVER THE GRINCH,
+    YOU ARE HAILED AS A HERO AND THE SAVIOR OF CHRISTMAS. THE TOWNSFOLK AND THE FAMILIES
+    THAT WERE PREVIOUSLY SAD AND WITHOUT HOPE ARE NOW FILLED WITH JOY AND CHEER ONCE
+    AGAIN.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8c757f6c8f75458418db557337e7b3a4, type: 2}
   m_sharedMaterial: {fileID: -886614525999566039, guid: 8c757f6c8f75458418db557337e7b3a4, type: 2}
@@ -315,7 +315,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -357.63882, y: -91.30249, z: -357.63885, w: -339.76532}
+  m_margin: {x: 1.2973938, y: 2.3330078, z: 1.296936, w: 3.5648499}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
