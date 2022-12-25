@@ -1,4 +1,10 @@
 # Save The Christmas
+
+itch.io link: https://ierkol18.itch.io/save-the-christmas
+
+![kguzs+](https://user-images.githubusercontent.com/62174207/209481182-9ea9e12c-91d0-4b79-90d3-64256de22740.png)
+
+
 Overview
 
 Grinch has stolen all the presents, decorations, and holiday cheer, and had left the townspeople feeling sad and defeated. Your aim as Santa is to bring back the presents to the good kids. Your elves have left a green color mark to indicate the good kids and a red mark to indicate bad kids at the chimneys of the houses. Will you be able to bring back Christmas or will Grinch defeat you?
