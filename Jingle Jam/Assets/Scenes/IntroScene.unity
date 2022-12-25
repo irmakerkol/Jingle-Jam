@@ -1114,8 +1114,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Ho ho ho! Merry Chr\u0131stmas! It's great to see you th\u0131s year.
-    Are you ready to help me del\u0131ver presents to all the good k\u0131ds?"
+  m_text: "the gr\u0131nch has stolen all the presents, decorat\u0131ons, and hol\u0131day
+    cheer, and had left the townspeople feel\u0131ng sad and defeated. your a\u0131m
+    as the santa \u0131s to br\u0131ng back the presents to the good k\u0131ds. Your
+    elves have left a green color mark to \u0131nd\u0131cate the good k\u0131ds and
+    a red mark to \u0131nd\u0131cate bad k\u0131ds at the ch\u0131mneys of the houses.
+    will you be able to bring back the Christmas or w\u0131ll gr\u0131nch defat you?"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8c757f6c8f75458418db557337e7b3a4, type: 2}
   m_sharedMaterial: {fileID: -886614525999566039, guid: 8c757f6c8f75458418db557337e7b3a4, type: 2}
@@ -1178,7 +1182,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: -2.6635845, z: 0, w: 3.9954376}
+  m_margin: {x: 0, y: -2.6635845, z: 0, w: -167.14844}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
