@@ -2,8 +2,6 @@
 
 itch.io link: https://ierkol18.itch.io/save-the-christmas
 
-![kguzs+](https://user-images.githubusercontent.com/62174207/209481182-9ea9e12c-91d0-4b79-90d3-64256de22740.png)
-
 
 Overview
 
@@ -16,6 +14,12 @@ A-S: Move vertically
 Space: Drop Presents
 
 Try to get 100% XMAS Spirit before the night ends!
+
+![kguzs+](https://user-images.githubusercontent.com/62174207/209481246-b00e6065-7c35-42e4-85b9-6a9f1b6c01be.png)
+
+
+![WhatsApp Image 2022-12-25 at 16 37 52](https://user-images.githubusercontent.com/62174207/209481249-3ef79847-1f9e-48b1-8e82-fe2b5c3c977b.jpeg)
+
 
 Credits 
 
@@ -43,3 +47,4 @@ https://pixabay.com/sound-effects/santa-claus-merry-christmas-ho-ho-ho-103426/
 
 https://assetstore.unity.com/packages/audio/music/christmas-music-loop-instrumental-129979#description
 
+![Ml3hov](https://user-images.githubusercontent.com/62174207/209481256-75cccf81-ff29-43e0-afb2-a9e8d2e02086.png)
